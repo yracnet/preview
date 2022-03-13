@@ -32,7 +32,6 @@ __webpack_require__.r(__webpack_exports__);
 const onScroll = () => {
   const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
   const otNavbar = document.querySelector('.ot-navbar');
-  console.log('scrollTop:', scrollTop);
   if (scrollTop > 5) {
     otNavbar.classList.add('ot-light');
     otNavbar.classList.remove('ot-dark');
@@ -42,6 +41,16 @@ const onScroll = () => {
   }
 };
 window.addEventListener('scroll', onScroll, false);
+
+document.querySelectorAll('#nav .nav-link').forEach((it) => {
+  it.onclick = () => {
+    document.querySelectorAll('#nav .nav-link').forEach((it2) => {
+      it2.classList.remove('active');
+    });
+    it.classList.add('active');
+  };
+});
+
 // Scroll Init
 onScroll();
 
