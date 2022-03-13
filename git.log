@@ -1,15 +1,16 @@
 =============
 
-commit 7b34c60d6b2d0fbb4dcdcf21d111b75ee60f5665
+commit 8081fc31354a6717f0961e34b57a5f75f243fc81
 Author: Willyams Yujra <yracnet@gmail.com>
-Date:   Sun Mar 13 14:41:01 2022 -0400
+Date:   Sun Mar 13 15:26:03 2022 -0400
 
-    + Git Revision Manifest
+    + fix animations
 
 
 =============
 
 On branch development
-Your branch is up to date with 'origin/development'.
+Your branch is ahead of 'origin/development' by 1 commit.
+  (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
